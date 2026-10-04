@@ -40,5 +40,8 @@ h1 {
 }
 .navbar li{
   float:left;
-
+}
+.navbar Account{
+  float:right;
+  
 }
