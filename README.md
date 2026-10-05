@@ -82,3 +82,21 @@ The Independent Institute of Education. (2012). WEB DEVELOPMENT (Introduction) W
 Tswane Automotive Special Economic Zone. (2026, January 20). What Does a Website Actually Cost in South Africa? A Price-by-Price Comparison for 2026. Available at < https://tasez.co.za/what-does-a-website-actually-cost-in-south-africa-a-price-by-price-comparison-for-2026/ > [Accessed date: 1 September 2026]
 
 Wong, V. (2026, August 25). The Best 15 Gaming Color Palette Combinations. Available at < https://piktochart.com/blog/gaming-color-palette/#7-pixel-paradise > [Accessed date: 31 August 2026 ]
+
+W3Schools(2026),CSS @media Rule Available at < https://www.w3schools.com/cssref/atrule_media.php > [Accessed date: 1 October 2026]
+
+The Independent Institute of Education. (2012). WEB DEVELOPMENT (Introduction) WEDE5020/p/w MODULE MANUAL 2026 (Vol. First Edition). Pretoria: The independent institute of education. Available at < https://mystudies.iie.edu.za/content/enforced/93745-WEDE5020_2026_FT_HMAW0501_EMGPPT_Term2_GR02/WEDE5020MM.pdf  >[Accessed date: 1 October 2026]
+
+GreatStack(2020).How To Make Ecommerce Website Using HTML And CSS Step By Step | Create e-Commerce Website[Video]. YouTube.8 Jul 2020.Available at: < https://www.youtube.com/watch?v=yQimoqo0-7g&list=PLjwm_8O3suyM_2Lo9aAIw3HqjOPor8j9g > [Accessed date: 4 October 2026]
+
+Bro Code(2023). CSS website layout in 9 minutes!🗺️[Video]YouTube. 21 September 2023. Available at:< https://www.youtube.com/watch?v=Hsu8uqQTSV8&t=428s > [Accessed Date:4 October]
+
+GreatStack(2020).How To Make eCommerce Website Using HTML And CSS Part 2 | Online Shopping Website Design[Video]. YouTube. 16 Jul 2020 .Available at:< https://www.youtube.com/watch?v=ZbnvP_hmxfE > [Accessed date:4 October2026]
+
+The Wheelchair Guy(2022).Logo Left, Navigation Right - HTML & CSS[Video].Youtube.9 April 2022. Available at:< https://www.youtube.com/watch?v=VQOfb5KyK3o > [Accessed date:5 October 2026]
+
+Tech Basics(2024).How to Create a Navigation Bar using HTML and CSS | Navbar CSS Tutorial | Header HTML CSS.[Video].Youtube.17 September 2024. Available at:<https://www.youtube.com/watch?v=QwKM2Dubg44>[Accessed date: 5 October 2026]
+
+Kevin Powell(2022).Build a responsive website with HTML & CSS | Part three: General styling.[Video].Youtube.10 July 2022.Available at: < https://www.youtube.com/watch?v=Ch_LoWKLv3A&list=PL4-IK0AVhVjNDRHoXGort7sDWcna8cGPA&index=3 > [Accessed date: 5 October 2026]
+
+Web Academy(2023).Shopping Cart Design using HTML & CSS.[Video].YouTube.15 February2023.Available at: < https://www.youtube.com/watch?v=cUuWjG1Yros > [Accessed date:5 October 2026]
