@@ -26,68 +26,69 @@
             </div>
         </nav>
     </header>
-    <main>
-        <h1>Our Products</h1>
-        <p>Welcome to our product page! Here you can find all the amazing products we have to offer.</p>
-        
-        <div>
-            <h2>Computer Cases</h2>
-            <div class="product">
-                <img src="../Images/Computer cases/694750680054530490.jpg" alt="Computer case" width="200" height="200">
-                <p>Product 1</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
-            </div>
-            <div class="product">
-                <img src="../Images/Computer cases/KOLINK Observatory RGB Midi-Tower Computergehäuse….jpg" alt="KOLINK Observatory computer case" width="200" height="200">
-                <p>Product 2</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
-            </div>
-            <div class="product">
-                <img src="../Images/Computer cases/MUSETEX ATX PC Case, 3 x 120mm Fans Pre-Installed, 360MM RAD Support, 270° Full View Tempered Glass Gaming PC Case with Type-C, Mid Tower ATX Computer.jpg" alt="MUSETEX ATX computer case" width="200" height="200">
-                <p>Product 3</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
-            </div>
+    <main class="product-page">
+        <div class="product-intro">
+            <h1>Our Products</h1>
+            <p>Explore our collection of custom keyboards, computer cases, and gaming PCs.</p>
         </div>
 
-        <div>
-            <h2>Keyboards</h2>
-            <div class="Keyboard">
-                <img src="../Images/Custome KeyBoard.jpg" alt="Custom keyboard" width="200" height="200">
-                <p>Product 4</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
+        <section class="product-category" aria-labelledby="cases-heading">
+            <h2 id="cases-heading">Computer Cases</h2>
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="../Images/Computer cases/694750680054530490.jpg" alt="Computer case" width="200" height="200">
+                    <h3>Computer Case</h3>
+                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
+                </article>
+                <article class="product-card">
+                    <img src="../Images/Computer cases/KOLINK Observatory RGB Midi-Tower Computergehäuse….jpg" alt="KOLINK Observatory computer case" width="200" height="200">
+                    <h3>KOLINK Observatory Case</h3>
+                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
+                </article>
+                <article class="product-card">
+                    <img src="../Images/Computer cases/MUSETEX ATX PC Case, 3 x 120mm Fans Pre-Installed, 360MM RAD Support, 270° Full View Tempered Glass Gaming PC Case with Type-C, Mid Tower ATX Computer.jpg" alt="MUSETEX ATX computer case" width="200" height="200">
+                    <h3>MUSETEX ATX Case</h3>
+                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
+                </article>
             </div>
+        </section>
 
-            <div class="Keyboard">
-                <img src="../Images/Custome Keyboard2.webp" alt="Custom keyboard" width="200" height="200">
-                <p>Product 5</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
+        <section class="product-category" aria-labelledby="keyboards-heading">
+            <h2 id="keyboards-heading">Keyboards</h2>
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="../Images/Custome KeyBoard.jpg" alt="Custom keyboard" width="200" height="200">
+                    <h3>Custom Keyboard</h3>
+                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
+                </article>
+                <article class="product-card">
+                    <img src="../Images/Custome Keyboard2.webp" alt="Custom keyboard" width="200" height="200">
+                    <h3>Custom Keyboard</h3>
+                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
+                </article>
             </div>
+        </section>
 
-        </div>
-
-        <div>
-            <h2>Custom Computers</h2>
-
-            <div class ="Custom Computers">
-                <img src="../Images/PreBuild computers/Talius Cronos ATX.jpg" alt="Talius Cronos computer" width="200" height="200">
-                <p>Product 6</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
+        <section class="product-category" aria-labelledby="computers-heading">
+            <h2 id="computers-heading">Custom Computers</h2>
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="../Images/PreBuild computers/Talius Cronos ATX.jpg" alt="Talius Cronos computer" width="200" height="200">
+                    <h3>Talius Cronos PC</h3>
+                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
+                </article>
+                <article class="product-card">
+                    <img src="../Images/PreBuild computers/Gaming-Streaming Computer.jpg" alt="Gaming and streaming computer" width="200" height="200">
+                    <h3>Gaming and Streaming PC</h3>
+                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
+                </article>
+                <article class="product-card">
+                    <img src="../Images/PreBuild computers/Gaming computer.jpg" alt="Gaming computer" width="200" height="200">
+                    <h3>Gaming PC</h3>
+                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
+                </article>
             </div>
-
-            <div class ="Custom Computers">
-                <img src="../Images/PreBuild computers/Gaming-Streaming Computer.jpg" alt="Gaming and streaming computer" width="200" height="200">
-                <p>Product 6</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
-            </div>
-
-            <div class ="Custom Computers">
-                <img src="../Images/PreBuild computers/Gaming computer.jpg" alt="Gaming computer" width="200" height="200">
-                <p>Product 6</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
-            </div>
-            
-        </div>
-
+        </section>
     </main>
 
 </body>
