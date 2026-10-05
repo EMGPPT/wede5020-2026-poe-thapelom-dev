@@ -66,6 +66,21 @@ Phase 3: Part 3 — Functionality, SEO & Web Deployment (Weeks 9–12)
 ### Sitemap ###
 <img src="Images\SiteMap.png"  width="500" height="500">
 
+## Changelog 
+
+### Part 2 Updates &amp; Feedback Revisions
+Project Planning: 
+Improved the Timeline and Milestones section with a complete 12-week development schedule covering Phase 1 through Phase 3
+
+Goals and Objectives:
+Defined explicit organizational goals for UVIE regarding navigation guidance and user database/wishlist functionality.
+
+Documentation and Citations: 
+Updated the project proposal bibliography to include full URL access dates and additional color palette references.
+
+
+
+
 ## References ####
 BIG WEB MEDIA. (2026, March 6). How much does a website cost? The honest guide for small businesses. Available at< https://www.bigwebmedia.co.za/blog/how-much-does-a-website-cost-the-honest-guide-for-small-businesses/ > [Accessed Date: 26 August 2026] 
 
