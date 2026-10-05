@@ -26,28 +26,55 @@
             </div>
         </nav>
     </header>
-    <main>
-        <h1>Welcome to UVIEW</h1>
-        <p>Discover the latest in technology and innovation with UVIEW. Explore our wide range of products and find the perfect fit for your needs.</p>
-        <div class="Products">
-            <div class="items">
-                <img src="../Images/Custome KeyBoard.jpg" alt="Product 1" width="200" height="200">
-                <p>Product 1</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
+    <main class="home-page">
+        <section class="home-hero" aria-labelledby="home-heading">
+            <div class="home-hero-content">
+                <p class="home-eyebrow">PERSONALISE YOUR SETUP</p>
+                <h1 id="home-heading">Make your setup <span>your own.</span></h1>
+                <p class="home-hero-description">Explore custom keyboards, distinctive computer cases, and gaming PCs built to make your space feel like yours.</p>
+                <a class="home-primary-link" href="ProductPage.html">Explore our products</a>
             </div>
-            <div class="items">
-                <img src="../Images/Computer cases/KOLINK Observatory RGB Midi-Tower Computergehäuse….jpg" alt="Product 2" width="200" height="200">
-                <p>Product 2</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
+            <div class="home-hero-art" aria-hidden="true">
+                <img src="../Images/PreBuild computers/Gaming-Streaming Computer.jpg" alt="">
             </div>
-            <div class="items">
-                <img src="../Images/Computer cases/MUSETEX ATX PC Case, 3 x 120mm Fans Pre-Installed, 360MM RAD Support, 270° Full View Tempered Glass Gaming PC Case with Type-C, Mid Tower ATX Computer.jpg" alt="Product 3" width="200" height="200">
-                <p>Product 3</p>
-                <button onclick="location.href='CartPage.html'">Purchase</button>
-            </div>
-        </div>
+        </section>
 
+        <section class="home-featured" aria-labelledby="featured-heading">
+            <div class="home-section-heading">
+                <div>
+                    <p class="home-eyebrow">THE UVIEW COLLECTION</p>
+                    <h2 id="featured-heading">Featured products</h2>
+                </div>
+                <a class="home-text-link" href="ProductPage.html">Browse all products</a>
+            </div>
 
+            <div class="home-product-grid">
+                <article class="home-product-card">
+                    <img src="../Images/Custome KeyBoard.jpg" alt="Custom keyboard" width="200" height="200" loading="lazy">
+                    <div class="home-product-info">
+                        <p class="home-product-category">Keyboards</p>
+                        <h3>Custom Keyboard</h3>
+                        <a class="home-product-link" href="ProductPage.html">Discover keyboards <span aria-hidden="true">&rarr;</span></a>
+                    </div>
+                </article>
+                <article class="home-product-card">
+                    <img src="../Images/Computer cases/KOLINK Observatory RGB Midi-Tower Computergehäuse….jpg" alt="KOLINK Observatory computer case" width="200" height="200" loading="lazy">
+                    <div class="home-product-info">
+                        <p class="home-product-category">Computer Cases</p>
+                        <h3>KOLINK Observatory Case</h3>
+                        <a class="home-product-link" href="ProductPage.html">Discover computer cases <span aria-hidden="true">&rarr;</span></a>
+                    </div>
+                </article>
+                <article class="home-product-card">
+                    <img src="../Images/Computer cases/MUSETEX ATX PC Case, 3 x 120mm Fans Pre-Installed, 360MM RAD Support, 270° Full View Tempered Glass Gaming PC Case with Type-C, Mid Tower ATX Computer.jpg" alt="MUSETEX ATX computer case" width="200" height="200" loading="lazy">
+                    <div class="home-product-info">
+                        <p class="home-product-category">Computer Cases</p>
+                        <h3>MUSETEX ATX Case</h3>
+                        <a class="home-product-link" href="ProductPage.html">Discover computer cases <span aria-hidden="true">&rarr;</span></a>
+                    </div>
+                </article>
+            </div>
+        </section>
     </main>
 
     <footer>
