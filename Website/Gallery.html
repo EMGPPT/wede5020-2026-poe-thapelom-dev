@@ -4,17 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS Folder/Page.css">
     <link rel="stylesheet" href="../CSS Folder/Gallery.css">
+    <link rel="stylesheet" href="../CSS Folder/Format.css">
+    <script defer src="../Website/lightbox/lightbox.js"></script>
 </head>
 <body>
-  <div id ="container">
-    <div id = "main">
+      <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="brand" aria-label="UVIEW home">
+                    <img src="../Images/Logo/UVIEW.png" alt="UVIEW logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="ProductPage.html">Products</a></li>
+                    <li><a href="Gallery.html" class="active" aria-current="page">Gallery</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><a href="CartPage.html">Cart</a></li>
+                    <li><a href="Whishlist.html">Wishlist</a></li>
+                    <li><button class="account-btn" type="button">Sign In</button></li>
+                    <li><button class="account-btn secondary" type="button">Sign Up</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
+        <!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="../Images/Custome KeyBoard.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../Images/Custome Keyboard2.webp" onclick=" openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../Images/Custome keyboard3.webp" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../Images/REdDragonKeyboard.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="../Images/Custome KeyBoard.jpg" style="width:100%">
     </div>
-  </div>  
 
-  <footer id="footer">
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="../Images/Custome Keyboard2.webp" style="width:100%">
+    </div>
 
-  </footer>
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+        <img src="../Images/Custome keyboard3.webp" style="width:100%">
+      </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="../Images/REdDragonKeyboard.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="../Images/Custome KeyBoard.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../Images/Custome Keyboard2.webp" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../Images/Custome keyboard3.webp" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../Images/REdDragonKeyboard.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+
+<footer id="footer">
+
+</footer>
 </body>
 </html>
+<!-- Reference list -->
+<!--
+Dani Krossing.2017.How to Always Keep the Footer at the Bottom of A Page | Learn HTML and CSS | HTML Tutorial.7 April 2017.Avialable at:<https://www.youtube.com/watch?v=qlCIXXhSX6Y> [Accessed Date:6 November 2026]-->
