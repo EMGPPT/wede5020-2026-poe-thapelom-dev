@@ -3,73 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Gallery</title>
-    <link rel="stylesheet" href="../CSS Folder/Page.css">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS Folder/Gallery.css">
 </head>
 <body>
-        <header>
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="index.html" class="brand" aria-label="UVIEW home">
-                    <img src="../Images/Logo/U.V.I.E.W(Version2).png" alt="UVIEW logo">
-                </a>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="AboutUs.html">About Us</a></li>
-                    <li><a href="ProductPage.html">Products</a></li>
-                    <li><a href="Gallery.html" class="active" aria-current="page">Gallery</a></li>
-                    <li><a href="Contact.html">Contact Us</a></li>
-                    <li><a href="CartPage.html">Cart</a></li>
-                    <li><a href="Whishlist.html">Wishlist</a></li>
-                    <li><button class="account-btn" type="button">Sign In</button></li>
-                    <li><button class="account-btn secondary" type="button">Sign Up</button></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main class="product-page">
-        <div class="product-intro">
-            <h1>Our Products</h1>
-            <p>Explore our collection of custom keyboards, computer cases, and gaming PCs.</p>
-        </div>
+  <div id ="container">
+    <div id = "main">
 
-        
-        <section class="product-category" aria-labelledby="cases-heading">
-            <h2 id="cases-heading">Computer Cases</h2>
-            <div class="product-grid">
-                <article class="product-card">
-                    <img src="../Images/Computer cases/694750680054530490.jpg" alt="Computer case" width="200" height="200">
-                    <h3>Computer Case</h3>
-                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
-                </article>
-                <article class="product-card">
-                    <img src="../Images/Computer cases/KOLINK Observatory RGB Midi-Tower Computergehäuse….jpg" alt="KOLINK Observatory computer case" width="200" height="200">
-                    <h3>KOLINK Observatory Case</h3>
-                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
-                </article>
-                <article class="product-card">
-                    <img src="../Images/Computer cases/MUSETEX ATX PC Case, 3 x 120mm Fans Pre-Installed, 360MM RAD Support, 270° Full View Tempered Glass Gaming PC Case with Type-C, Mid Tower ATX Computer.jpg" alt="MUSETEX ATX computer case" width="200" height="200">
-                    <h3>MUSETEX ATX Case</h3>
-                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
-                </article>
-            </div>
-        </section>
+    </div>
+  </div>  
 
+  <footer id="footer">
 
-
-
-    <footer>
-        <p class = "footer-text">&copy; 2026 UVIEW. All rights reserved.</p>
-        <p>
-            <script>
-                var thedate = new Date()
-                document.write("&copy; "+  thedate.getFullYear())
-                document.write("Last Modified: " + document.lastModified);
-                var themodifiedDate=new Date(document.lastModified);
-                document.write("Last Modified: " + themodifiedDate.toLocaleString());
-            </script>
-            <br> Powered by <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a>
-        </p>
-    </footer>
+  </footer>
 </body>
 </html>
