@@ -17,22 +17,26 @@ html, body{
   width: 100vw;
   height: 100vh;
   background: rgba(0,0,0,0.5);
-  display: flex; 
+  display: none; 
   align-items:center;
   justify-content:center;
   box-sizing: border-box;
-  padding: 15px;
+  padding: 20px;
   z-index:1000;
 
 }
 
+.lightbox.active{
+  display: flex; 
+}
+
 .lightbox__inner{
     position: relative;
-    width: 100%;
-    max-width: 800px;
+    max-width: 90%;
+    max-height: 90vh;
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    min-height: 100px;
+    overflow: hidden;
 }
 
 .lightbox__close{
@@ -40,12 +44,12 @@ html, body{
     border: none;
     outline:none; 
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 15px;
     padding: 0 10px;
-    font-size: 40px; 
-    cursor: pointer;
+    font-size: 32px;
     color: rgba(0,0,0,0.5);
+    z-index: 10;
 }
 
 .lightbox__close:hover{
