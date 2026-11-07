@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
     <link rel="stylesheet" href="../CSS Folder/Page.css">
+    <link language = "javascript" src = "../Modal/Modal.js">
+    <link rel= "Modal_CSS" href = "../CSS Folder/Modal.css">
 </head>
 <body>
     <header>
@@ -76,6 +78,17 @@
                 </div>
                 <p class="summary-note">Shipping and taxes are calculated at checkout.</p>
                 <button class="checkout-btn" type="button">Checkout</button>
+
+
+
+                <div id = "myModal" class = "modal">
+
+                     <div class = "modal-content">
+                    <span class = "close">&times;</span>
+                    <p>Thank you for your order! Your order has been placed successfully.</p>
+                </div>
+                </div>
+
             </aside>
         </div>
     </main>

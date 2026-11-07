@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded',() => {
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
   const lightboxClose = document.getElementById('lightbox-close');
-  const galleryItems = document.querySelectorAll('.gallery-item');
+  const galleryImages = document.querySelectorAll('.gallery-container img');
 
  // Open lightbox when any gallery image is clicked 
 
