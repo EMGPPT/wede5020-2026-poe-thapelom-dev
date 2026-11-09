@@ -78,7 +78,7 @@ Defined explicit organizational goals for UVIE regarding navigation guidance and
 -Documentation and Citations: 
 Updated the project proposal bibliography to include full URL access dates and additional color palette references.
 
-### Part 3 update %amp; feedback Revisions
+### Part 3 update &amp; feedback Revisions
 -Reworked the navigation bar and updated the page header's and footer
 
 -Redesigned the Product Page, landing page and removed the cart page
