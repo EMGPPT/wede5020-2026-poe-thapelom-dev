@@ -40,6 +40,17 @@
     border-color: #2563eb;
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
 }
+.contact-input[aria-invalid="true"] {
+    border-color: #b91c1c;
+}
+.contact-input[aria-invalid="true"]:focus {
+    box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.18);
+}
+.field-error {
+    margin-top: -10px;
+    color: #b91c1c;
+    font-size: 0.9rem;
+}
 .contact-left button{
     display: flex; 
     align-items: center;

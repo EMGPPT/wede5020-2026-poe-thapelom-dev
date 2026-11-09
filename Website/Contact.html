@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="custom PC builder, prebuilt gaming PC, computer components, UVIE, desktop rigs, graphics cards, RAM upgrades, South Africa">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="UVIE Web Development Team">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
+    <title>UVIE Contact Page | We would love to hear from you!</title>
     <link rel="stylesheet" href="../CSS Folder/Page.css">
     <link rel="stylesheet" href="../CSS Folder/Contact.css">
 </head>
@@ -20,10 +23,12 @@
                     <li><a href="ProductPage.html">Products</a></li>
                     <li><a href="Gallery.html">Gallery</a></li>
                     <li><a href="Contact.html" class="active" aria-current="page">Contact Us</a></li>
-                    <li><a href="CartPage.html">Cart</a></li>
                     <li><a href="Whishlist.html">Wishlist</a></li>
-                    <li><button class="account-btn" type="button">Sign In</button></li>
-                    <li><button class="account-btn secondary" type="button">Sign Up</button></li>
+                      <li><div id="cart-icon">
+                        <i class="ri-shopping-cart-line add-cart" aria-label="Add to cart" style ="font-size:medium"></i>   
+                        <span class="cart-item-count"></span>    
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -31,16 +36,16 @@
 
     <main>
         <div class ="contact-container">
-            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left" id="contact-form">
                 <div class="contact-left-title">
                     <h2>Get in touch</h2>
                     <hr>
                 </div>
                 <input type="hidden" name="access_key" value="505f8b94-de7a-4764-ab5b-a4cf2d9ea9dc">
-                <input type="text" name="name" placeholder="Your name" class="contact-input" required>
-                <input type="email" name="email" placeholder="Your email" class="contact-input" required>
-                <textarea name="message" placeholder="Your Message" class="contact-input"></textarea>
-                <button type="submit">Submit<img src="" alt=""></button>
+                <input type="text" name="name" placeholder="Your name" class="contact-input" aria-label="Your name" required>
+                <input type="email" name="email" placeholder="Your email" class="contact-input" aria-label="Your email" required>
+                <textarea name="message" placeholder="Your Message" class="contact-input" aria-label="Your message" required></textarea>
+                <button type="submit">Submit</button>
 
             </form>
             <div>
@@ -50,7 +55,18 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 UVIEW. All rights reserved.</p>
+        <p class = "footer-text">&copy; 2026 UVIEW. All rights reserved.</p>
+        <p>
+            <script>
+                var thedate = new Date()
+                document.write("&copy; "+  thedate.getFullYear())
+                document.write("Last Modified: " + document.lastModified);
+                var themodifiedDate=new Date(document.lastModified);
+                document.write("Last Modified: " + themodifiedDate.toLocaleString());
+            </script>
+            <br> Powered by <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a>
+        </p>
     </footer>
+    <script src="contact.js" defer></script>
 </body>
 </html>

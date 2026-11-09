@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>UVIE Products | Gaming PCs, Graphics Cards & Processors</title>
     <meta charset="UTF-8">
+    <meta name="keywords" content="custom PC builder, prebuilt gaming PC, computer components, UVIE, desktop rigs, graphics cards, RAM upgrades, South Africa">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="UVIE Web Development Team">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
     <link rel="stylesheet" href="../CSS Folder/Page.css">
     <link rel="stylesheet" href="../Website/CartPage/cart.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
@@ -21,11 +24,9 @@
                     <li><a href="ProductPage.html" class="active" aria-current="page">Products</a></li>
                     <li><a href="Gallery.html">Gallery</a></li>
                     <li><a href="Contact.html">Contact Us</a></li>
-                    <li><a href="CartPage.html">Cart</a></li> 
                     <li><a href="Whishlist.html">Wishlist</a></li>
-
-                    <li><div id="cart-icon">
-                        <i class="ri-shopping-cart-line add-cart" aria-label="Add to cart"></i>   
+                      <li><div id="cart-icon">
+                        <i class="ri-shopping-cart-line add-cart" aria-label="Add to cart" style ="font-size:medium"></i>   
                         <span class="cart-item-count"></span>    
                         </div>
                     </li>
@@ -186,6 +187,19 @@
        </section>
     </main>
     <script src="../Website/CartPage/cart.js"></script>
+        <footer>
+        <p class = "footer-text">&copy; 2026 UVIEW. All rights reserved.</p>
+        <p>
+            <script>
+                var thedate = new Date()
+                document.write("&copy; "+  thedate.getFullYear())
+                document.write("Last Modified: " + document.lastModified);
+                var themodifiedDate=new Date(document.lastModified);
+                document.write("Last Modified: " + themodifiedDate.toLocaleString());
+            </script>
+            <br> Powered by <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a>
+        </p>
+    </footer>
 </body>
 </html>
 
