@@ -69,14 +69,21 @@ Phase 3: Part 3 — Functionality, SEO & Web Deployment (Weeks 9–12)
 ## Changelog 
 
 ### Part 2 Updates &amp; Feedback Revisions
-Project Planning: 
+-Project Planning: 
 Improved the Timeline and Milestones section with a complete 12-week development schedule covering Phase 1 through Phase 3
 
-Goals and Objectives:
+-Goals and Objectives:
 Defined explicit organizational goals for UVIE regarding navigation guidance and user database/wishlist functionality.
 
-Documentation and Citations: 
+-Documentation and Citations: 
 Updated the project proposal bibliography to include full URL access dates and additional color palette references.
+
+### Part 3 update &amp; feedback Revisions
+-Reworked the navigation bar and updated the page header's and footer
+
+-Redesigned the Product Page, landing page and removed the cart page
+
+-implemented new gallery page for implementation for the lightbox required for the next phase
 
 
 
