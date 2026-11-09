@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
     <link rel="stylesheet" href="../CSS Folder/Page.css">
+    <link rel="stylesheet" href="../Website/CartPage/cart.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar" style="background-color: rgb(247, 243, 243);">
             <div class="nav-container">
                 <a href="index.html" class="brand" aria-label="UVIEW home">
                     <img src="../Images/Logo/UVIEW.png" alt="UVIEW logo">
@@ -19,40 +21,103 @@
                     <li><a href="ProductPage.html" class="active" aria-current="page">Products</a></li>
                     <li><a href="Gallery.html">Gallery</a></li>
                     <li><a href="Contact.html">Contact Us</a></li>
-                    <li><a href="CartPage.html">Cart</a></li>
+                    <li><a href="CartPage.html">Cart</a></li> 
                     <li><a href="Whishlist.html">Wishlist</a></li>
-                    <li><button class="account-btn" type="button">Sign In</button></li>
-                    <li><button class="account-btn secondary" type="button">Sign Up</button></li>
+
+                    <li><div id="cart-icon">
+                        <i class="ri-shopping-cart-line add-cart" aria-label="Add to cart"></i>   
+                        <span class="cart-item-count"></span>    
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
+
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <div class="cart-box">
+                <img src="../Images/Computer cases/KOLINK Observatory RGB Midi-Tower Computergehäuse….jpg" class="cart-img">
+                <div class="cart-detail">
+                    <h2 class="cart-product-title">Koklink observatory Mid-Tower Case</h2>
+                    <span class="cart-price">R1300</span>
+                    <div class="cart-quantity">
+                        <button id="decrement">-</button>
+                        <span class="number">1</span>
+                        <button class="increment">+</button>
+                    </div>
+                </div>
+                <i class="ri-delete-bin-line cart-remove"></i>
+            </div>
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">R0</div>
+        </div>
+        <button class="btn-buy">buy</button>
+        <i class="ri-close-large-line" id="cart-close"></i>
+    </div>
+
     <main class="product-page">
         <div class="product-intro">
             <h1>Our Products</h1>
             <p>Explore our collection of custom keyboards, computer cases, and gaming PCs.</p>
         </div>
 
-        <section class="product-category" aria-labelledby="cases-heading">
-            <h2 id="cases-heading">Computer Cases</h2>
-            <div class="product-grid">
-                <article class="product-card">
-                    <img src="../Images/Computer cases/694750680054530490.jpg" alt="Computer case" width="200" height="200">
-                    <h3>Computer Case</h3>
-                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
-                </article>
-                <article class="product-card">
-                    <img src="../Images/Computer cases/KOLINK Observatory RGB Midi-Tower Computergehäuse….jpg" alt="KOLINK Observatory computer case" width="200" height="200">
-                    <h3>KOLINK Observatory Case</h3>
-                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
-                </article>
-                <article class="product-card">
-                    <img src="../Images/Computer cases/MUSETEX ATX PC Case, 3 x 120mm Fans Pre-Installed, 360MM RAD Support, 270° Full View Tempered Glass Gaming PC Case with Type-C, Mid Tower ATX Computer.jpg" alt="MUSETEX ATX computer case" width="200" height="200">
-                    <h3>MUSETEX ATX Case</h3>
-                    <button type="button" onclick="location.href='CartPage.html'">Purchase</button>
-                </article>
+       <section class="shop">
+        <h1 class="section-title">Computer Case</h1>
+        <div class="product-content">
+            <div class ="product-box">
+                <div class="img-box">
+                    <img src = "../Images/Computer cases/KOLINK Observatory RGB Midi-Tower Computergehäuse….jpg">
+                </div>
+                <h2 class ="product-title">Koklink Observatory Mid-Tower Case</h2>
+                <div class="price-and-cart">
+                    <span class="price">R1300</span>
+                    <i class="ri-shopping-cart-line add-cart" aria-label="Add to cart"></i>
+                </div>
             </div>
-        </section>
+
+              <div class ="product-box">
+                <div class="img-box">
+                    <img src = "../Images/Computer cases/MUSETEX ATX PC Case, 3 x 120mm Fans Pre-Installed, 360MM RAD Support, 270° Full View Tempered Glass Gaming PC Case with Type-C, Mid Tower ATX Computer.jpg">
+                </div>
+                <h2 class ="product-title">Musetex Atx PC case</h2>
+                <div class="price-and-cart">
+                    <span class="price">R1500</span>
+                    <i class="ri-shopping-cart-line add-cart" aria-label="Add to cart"></i>
+                </div>
+            </div>
+
+              <div class ="product-box">
+                <div class="img-box">
+                    <img src = "../Images/Computer cases/694750680054530490.jpg">
+                </div>
+                <h2 class ="product-title">Koklink Observatory Mid-Tower Case</h2>
+                <div class="price-and-cart">
+                    <span class="price">R1300</span>
+                    <i class="ri-shopping-cart-line add-cart" aria-label="Add to cart"></i>
+                </div>
+            </div>
+
+              <div class ="product-box">
+                <div class="img-box">
+                    <img src = "../Images/Computer cases/KOLINK Observatory RGB Midi-Tower Computergehäuse….jpg">
+                </div>
+                <h2 class ="product-title">Koklink Observatory Mid-Tower Case</h2>
+                <div class="price-and-cart">
+                    <span class="price">R1300</span>
+                    <i class="ri-shopping-cart-line add-cart" aria-label="Add to cart"></i>
+                </div>
+            </div>
+
+        </div>
+       </section>
+
+        
+
+
 
         <section class="product-category" aria-labelledby="keyboards-heading">
             <h2 id="keyboards-heading">Keyboards</h2>
@@ -91,6 +156,6 @@
             </div>
         </section>
     </main>
-
+    <script src="../Website/CartPage/cart.js"></script>
 </body>
 </html>
