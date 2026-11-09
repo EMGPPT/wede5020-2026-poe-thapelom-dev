@@ -63,6 +63,28 @@ body {
               color: #ffffff;
               }
 
+#cart-icon {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d1d5db;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #111827;
+  cursor: pointer;
+}
+
+#cart-icon .ri-shopping-cart-line {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+#cart-icon:hover {
+  background: #e5e7eb;
+}
+
 .account-btn {
               background: #ffffff;
               color: #111827;
