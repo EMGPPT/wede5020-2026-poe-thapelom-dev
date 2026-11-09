@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link rel="stylesheet" href="../CSS Folder/Page.css">
+    <link rel="stylesheet" href="../CSS Folder/Contact.css">
 </head>
 <body>
     <header>
@@ -29,11 +30,23 @@
     </header>
 
     <main>
-        <h1>Contact Us</h1>
-        <p>If you have any questions or inquiries, please feel free to reach out to us using the contact information below. We are here to assist you and provide the support you need.</p>
-        <h3>Contact Information</h3>
-        <p>Email: <a href="mailto:info@uview.com">info@uview.com</a></p>
-        <p>Phone: +27 11 123 4567</p>
+        <div class ="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="505f8b94-de7a-4764-ab5b-a4cf2d9ea9dc">
+                <input type="text" name="name" placeholder="Your name" class="contact-input" required>
+                <input type="email" name="email" placeholder="Your email" class="contact-input" required>
+                <textarea name="message" placeholder="Your Message" class="contact-input"></textarea>
+                <button type="submit">Submit<img src="" alt=""></button>
+
+            </form>
+            <div>
+            </div>
+        </div>
+
     </main>
 
     <footer>
